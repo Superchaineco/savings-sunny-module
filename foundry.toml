@@ -4,3 +4,12 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+remappings = ["@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"]
+
+[etherscan]
+optimism = { key = "UGB21JYI7XRY68M6IBNNYHPJYTSX2V5ATX" }
+
+[rpc_endpoints]
+optimism = "https://rpc.ankr.com/optimism"
+# optimism = "https://virtual.optimism.rpc.tenderly.co/785adc91-ac9f-4721-b48d-77e62bbc1b79"
